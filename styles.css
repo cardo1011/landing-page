@@ -69,6 +69,13 @@ a:hover {
   height: auto;
 }
 
+h2 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .imgsContainer {
   display: flex;
   justify-content: space-around;
@@ -94,4 +101,10 @@ a:hover {
 .box p {
   padding-top: 20px;
   width: 300px;
+}
+
+.quoteContainer {
+  padding: 155px;
+  background-color: lightgray;
+  font-size: xx-large;
 }

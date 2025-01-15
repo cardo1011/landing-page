@@ -108,3 +108,35 @@ h2 {
   background-color: lightgray;
   font-size: xx-large;
 }
+
+.contactInfo {
+  padding: 155px;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-background {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  border: red solid 1px;
+  background-color: #3882f6;
+  color: white;
+  padding: 25px 3px 25px 3px;
+}
+
+.contactInfo h2 {
+  justify-content: flex-start;
+}
+
+.contactInfo button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  border: white 1px solid;
+  padding: 1px;
+  width: 10%;
+}
